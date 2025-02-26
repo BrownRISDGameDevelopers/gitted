@@ -1,6 +1,6 @@
 - Clone this repo
 - Open repo locally, make new file in repo.
-- Add some contents to local file.
+- Add some contents to local file and save.
 - `git add *`
 - `git commit -m "first commit"`
 - `git push`
@@ -8,7 +8,8 @@
 - In local, make some other changes to the same line of the file.
 - `git add *`
 - `git commit -m "this will cause a conflict"`
-- `git pull`
+- `git pull`: This should give a merge conflict
+- Check the merge conflict file using `git status`
 - Resolve conflict in editor
 - add, commit, push
 - After demo: Delete the file and push changes to remote to restore the remote repository.
