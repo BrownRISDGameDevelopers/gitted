@@ -2,12 +2,12 @@
 - Open repo locally, make new file in repo.
 - Add some contents to local file.
 - `git add *`
-- `git commit -m "first commit`
+- `git commit -m "first commit"`
 - `git push`
 - Open this repo on GitHub, edit the file in web and commit changes
 - In local, make some other changes to the same line of the file.
 - `git add *`
-- `git commit -m "this will cause a conflict`
+- `git commit -m "this will cause a conflict"`
 - `git pull`
 - Resolve conflict in editor
 - add, commit, push
