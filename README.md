@@ -29,14 +29,18 @@ Here are some common steps:
 If the file is not in a human-readable text format (like an image or video), you should delete the file and re-add the correct version. If it's semi-human readable (like a Unity scene), find an expert or proceed with caution if you want to merge manually.  
 Otherwise, you can open the file in your favorite text editor. You should see some sections marked like this:  
 ```
+My favorite Touhou song is 
 <<<<<<< HEAD
-your local changes are here
+Hartmann's Youkai Girl    <- your local changes are here
 =======
-remote changes are here
+Bad Apple                 <- remote changes are here
 >>>>>>> [commit id of the remote]
 ```
 This lays out what content are actively in conflict. Decide what you want to final file to look like, then delete everything else (including the merge conflict markers).  
 Make sure to scan the rest of the file to make sure your final file makes sense! If the remote commit include changes A and B, where A depends on B, it could happen that only B conflicts with your local changes. If you decide to remote B, you should take A into consideration too.  
+```
+My favorite Touhou songs are Hartmann's Youkai Girl and Bad Apple.
+```
 Now save your file and go back to the terminal:  
 `git add [file in conflict]` - Add the new merge conflict resolution changes to the next commit
 `git commit -m [message]` - Commit your resolution
