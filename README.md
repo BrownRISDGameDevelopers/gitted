@@ -8,7 +8,10 @@ Git is used to manage the versions of files inside a folder (called a Git reposi
 ## Common commands
 `git clone [remote link]` - Downloads a repository from the remote link.  
 `git status` - Shows changes made since the last commit.  
-`git add [filename]` - Adds an uncommitted change to be included in the next commit.  
+`git add [filename]` - Adds an uncommitted changed file to be included in the next commit.  
+
+- You can add all files in current folder with `git add *`
+ 
 `git commit -m [message]` - Creates a commit with all the `add`ed changes. [message] should describe what was changed in this commit.  
 `git pull` - Pull changes from the cloud (remote) to the current local branch.  
 `git push` - Pushes all local commits to the cloud (remote). You always want to pull before you push.  
