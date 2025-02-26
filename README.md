@@ -27,13 +27,13 @@ Merge conflicts happen because someone pushed changes to the remote that conflic
 Here are some common steps:
 `git status` - See which files currently contain unresolved merge conflicts  
 If the file is not in a human-readable text format (like an image or video), you should delete the file and re-add the correct version. If it's semi-human readable (like a Unity scene), find an expert or proceed with caution if you want to merge manually.  
-Otherwise, you can open the file in your favorite text editor. You should see some sections marked like this:  
+Otherwise, you can open the file in your favorite text editor. You should see 1 or more sections that look like this:  
 ```
-My favorite Touhou song is 
-<<<<<<< HEAD
-Hartmann's Youkai Girl    <- your local changes are here
+My favorite Touhou song is  <- Normal, nonconflicting content 
+<<<<<<< HEAD                
+Hartmann's Youkai Girl      <- your local changes are here
 =======
-Bad Apple                 <- remote changes are here
+Bad Apple                   <- remote changes are here
 >>>>>>> [commit id of the remote]
 ```
 This lays out what content are actively in conflict. Decide what you want to final file to look like, then delete everything else (including the merge conflict markers).  
