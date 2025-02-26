@@ -1,5 +1,5 @@
 # gitted
-A short, sweet, easy tutorial on Git for BRGD
+A short, sweet, easy tutorial on Git for BRGD  
 Originally created by Bokai Bi (Discord @KoishiHat)
 
 Git is used to manage the versions of files inside a folder (called a Git repository). Each version is called a commit. A commit contains a snapshot of all the files at the point of committing. 
