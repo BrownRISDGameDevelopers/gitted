@@ -42,8 +42,8 @@ Make sure to scan the rest of the file to make sure your final file makes sense!
 My favorite Touhou songs are Hartmann's Youkai Girl and Bad Apple.
 ```
 Now save your file and go back to the terminal:  
-`git add [file in conflict]` - Add the new merge conflict resolution changes to the next commit
-`git commit -m [message]` - Commit your resolution
+`git add [file in conflict]` - Add the new merge conflict resolution changes to the next commit  
+`git commit -m [message]` - Commit your resolution  
 `git push` - Push your changes. Note if someone pushed more changes while you were resolving the conflict you'll need to `git pull` first. If that creates another conflict, you can resolve it in the same way.  
 
 ## Common issues
