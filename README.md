@@ -18,7 +18,7 @@ Git is used to manage the versions of files inside a folder (called a Git reposi
 
 ## Occasionally useful commands
 `git log` - Shows a history of commits with their commit ids.  
-`git reset --hard [commit-id]` - ***DANGEROUS*** Resets the local branch to the specified commit. Make sure to back up changes you want to keep somewher eoutside the repo.  
+`git reset --hard [commit-id]` - ***DANGEROUS*** Resets the local branch to the specified commit. Make sure to back up changes you want to keep somewhere outside the repo.  
 `git reset --hard origin/main` - Same as above, but resets the local branch to the current remote main branch.  
 
 ## Fundamentals of Merge Conflict Resolution
