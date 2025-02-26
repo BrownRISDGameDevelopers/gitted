@@ -4,7 +4,7 @@
 - `git add *`
 - `git commit -m "first commit"`
 - `git push`
-- Open this repo on GitHub, edit the file in web and commit changes
+- Open this repo on GitHub, edit the file in web and commit changes (this is equivalent to someone else editing locally and pushing)
 - In local, make some other changes to the same line of the file.
 - `git add *`
 - `git commit -m "this will cause a conflict"`
